@@ -1,0 +1,9 @@
+insert into glaces (id, volume, date_production, date_sortie) values (2, 14, '2023-09-12', '2023-10-21');
+insert into glaces (id, volume, date_production, date_sortie) values (3, 18, '2023-09-30', '2023-09-06');
+insert into glaces (id, volume, date_production, date_sortie) values (4, 11, '2023-07-19', '2023-09-13');
+insert into glaces (id, volume, date_production, date_sortie) values (5, 16, '2023-09-15', '2023-09-23');
+insert into glaces (id, volume, date_production, date_sortie) values (6, 18, '2023-07-28', '2023-10-07');
+insert into glaces (id, volume, date_production, date_sortie) values (7, 10, '2023-06-24', '2023-10-26');
+insert into glaces (id, volume, date_production, date_sortie) values (8, 16, '2023-07-16', '2023-09-22');
+insert into glaces (id, volume, date_production, date_sortie) values (9, 15, '2023-08-05', '2023-10-14');
+insert into glaces (id, volume, date_production, date_sortie) values (10, 13, '2023-08-27', '2023-10-09');
