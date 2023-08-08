@@ -1,0 +1,30 @@
+* {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body {
+  background-image: url(italian-3635296_1280.jpg);
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -10px;
+  margin-right: 20px;
+  flex-direction: row;
+  background-color: rgba(104, 103, 103, 0.6);
+  width: 100%;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  padding: 5px;
+}
+
+.logo-site {
+  margin-right: 900px;
+}
+
