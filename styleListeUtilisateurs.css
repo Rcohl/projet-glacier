@@ -1,0 +1,26 @@
+ul {
+  list-style: none;
+  color: #000000;
+}
+
+.liste-utilisateurs {
+  margin-top: 10px;
+  background-color: rgba(104, 103, 103, 0.6);
+}
+
+input {
+  margin-left: 50px;
+}
+
+.delete {
+  background-color: rgb(255, 5, 5);
+}
+
+.add {
+  background-color: rgb(5, 195, 5);
+}
+
+.ajouter-utilisateur {
+    display: flex;
+    justify-content: flex-end;
+}

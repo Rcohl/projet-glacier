@@ -1,0 +1,13 @@
+.add-user {
+  background-color: rgba(104, 103, 103, 0.6);
+  margin-top: 20px;
+}
+
+.create-user {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.create {
+    background-color: rgb(5, 195, 5);
+}

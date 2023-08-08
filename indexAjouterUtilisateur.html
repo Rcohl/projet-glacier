@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projet Glacier/Ajouter un utilisateur</title>
+    <link rel="stylesheet" href="styleGlobal.css" />
+    <link rel="stylesheet" href="styleAjouterUtilisateur.css" />
+  </head>
+  <header>
+    <nav class="navbar">
+      <a href="#"
+        ><img
+          class="logo-site"
+          src="ice-cream-cone-illustration.png"
+          alt="logo-site"
+          width="50px"
+      /></a>
+      <ul class="nav-content">
+        <li><a href="indexAccueil.html">Accueil</a></li>
+        <li><a href="#">Utilisateurs</a></li>
+        <li><a href="#">Glaces</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <div class="add-user">
+      <form action="">
+        <fieldset>
+          <h2>Information utilisateur</h2>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="E-mail" />
+          <p>
+            <label for="password">Mot de passe</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Mot de passe"
+            />
+          </p>
+          <p>
+            <label for="confirm-password">Confirmer le mot de passe</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Mot de passe"
+            />
+          </p>
+        </fieldset>
+        <fieldset>
+          <h2>Rôle</h2>
+          <label for="serveur">Serveur</label>
+          <input type="checkbox" name="serveur" id="serveur" />
+          <p>
+            <label for="responsable">Responsable</label>
+            <input type="checkbox" name="responsable" id="responsable" />
+          </p>
+          <p>
+            <label for="gerant">Gérant</label>
+
+            <input type="checkbox" name="gerant" id="gerant" />
+          </p>
+        </fieldset>
+        <div class="create-user">
+          <a href="indexAccueil.html"
+            ><button class="create" type="submit">
+              Créer l'utilisateur
+            </button></a
+          >
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
