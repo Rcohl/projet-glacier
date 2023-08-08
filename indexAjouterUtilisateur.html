@@ -18,8 +18,8 @@
       /></a>
       <ul class="nav-content">
         <li><a href="indexAccueil.html">Accueil</a></li>
-        <li><a href="#">Utilisateurs</a></li>
-        <li><a href="#">Glaces</a></li>
+        <li><a href="indexUtilisateurs.html">Utilisateurs</a></li>
+        <li><a href="indexGlaces.html">Glaces</a></li>
       </ul>
     </nav>
   </header>
@@ -51,21 +51,28 @@
         </fieldset>
         <fieldset>
           <h2>Rôle</h2>
-          <label for="serveur">Serveur</label>
-          <input type="checkbox" name="serveur" id="serveur" />
-          <p>
+          <div>
+            <label for="serveur">Serveur</label>
+            <input type="radio" name="serveur" id="serveur" value="serveur" />
+          </div>
+          <div>
             <label for="responsable">Responsable</label>
-            <input type="checkbox" name="responsable" id="responsable" />
-          </p>
-          <p>
+            <input
+              type="radio"
+              name="responsable"
+              id="responsable"
+              value="responsable"
+            />
+          </div>
+
+          <div>
             <label for="gerant">Gérant</label>
 
-            <input type="checkbox" name="gerant" id="gerant" />
-          </p>
+            <input type="radio" name="gerant" id="gerant" value="gerant" />
+          </div>
         </fieldset>
         <div class="create-user">
-          <a href="indexAccueil.html"
-            ><button class="create" type="submit">
+          <a href="indexAccueil.html"><button class="create" type="submit">
               Créer l'utilisateur
             </button></a
           >
