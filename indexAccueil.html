@@ -25,20 +25,31 @@
   </header>
   <body>
     <div class="formulaire">
-      <form action="login">
+      <form action="login" id="login-form">
         <h1>Login</h1>
         <fieldset>
           <label for="login">E-mail</label>
-          <input type="email" name="login" id="login" placeholder="E-mail" />
+          <input
+            type="email"
+            name="login"
+            id="login"
+            placeholder="E-mail"
+            required
+          />
           <p>
             <label for="password">Mot de passe</label>
-            <input type="password" name="password" id="password" />
+            <input type="password" name="password" id="password" required />
           </p>
-          <a href="indexUtilisateurs.html"
-            ><button class="connexion" type="submit">Connexion</button></a
-          >
+          <input
+            type="submit"
+            name="connexion"
+            id="connexion"
+            placeholder="connexion"
+          />
         </fieldset>
       </form>
     </div>
+
+    <script src="scriptAccueil.js"></script>
   </body>
 </html>
